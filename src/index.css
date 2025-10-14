@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+  }
+}
+
+@keyframes float-medium {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(-15px);
+  }
+}
+
+@keyframes float-fast {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px) translateX(5px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+.animate-float-medium {
+  animation: float-medium 6s ease-in-out infinite;
+}
+.animate-float-fast {
+  animation: float-fast 4s ease-in-out infinite;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/*  Styles de base *
+body {
+  @apply bg-background text-gray-800 font-sans antialiased;
+}
+
+ Typographie *
+h1,
+h2,
+h3,
+h4 {
+  @apply font-bold text-gray-900;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl;
+}
+
+ Liens 
+a {
+  @apply text-primary hover:text-primary-dark transition-colors duration-300;
+}
+
+ Boutons* 
+.btn {
+  @apply inline-block px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark focus:ring-primary;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-gray-900 hover:bg-secondary-dark focus:ring-secondary;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary hover:bg-primary hover:text-white;
+}
+
+* Cartes *
+.card {
+  @apply bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+}
+*/
+/*Animations personnalisées */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s infinite;
+}

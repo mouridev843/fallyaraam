@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "git@github.com:mouridev843/fallyaraam.git",
+  base: "/fallyaraam/",
   server: {
     port: 3000,
     open: true,

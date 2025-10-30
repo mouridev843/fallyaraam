@@ -2,7 +2,6 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import logo from "/src/assets/images/logofall.JPG";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +15,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img
-                src={logo}
+                src="public/images/logofall.JPG"
                 alt="Logo"
                 className="h-10 md:h-12 w-auto object-contain"
               />

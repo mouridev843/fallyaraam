@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"; // For motion animations
 import { Link } from "react-router-dom"; // For navigation links
-import Fall from "/src/assets/images/Fall.JPG"; // Importing the image
 
 export default function AboutPreview() {
   return (
@@ -16,7 +15,7 @@ export default function AboutPreview() {
             className="w-full lg:w-2/5 h-110 lg:h-auto bg-gradient-to-br from-[#81C784] to-[#4CAF50] relative overflow-hidden"
           >
             <img
-              src={Fall}
+              src="/public/images/Fall.JPG"
               alt="Fall"
               className="w-full h-full object-cover object-center"
             />

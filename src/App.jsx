@@ -14,7 +14,7 @@ const ProtectedRoute = ({ children }) => {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/fallyaraam/">
+    <BrowserRouter basename="/fallyaraam">
       <AuthProvider>
         <Routes>
           {/* Layout public */}

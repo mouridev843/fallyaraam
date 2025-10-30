@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaEnvelope, FaFileInvoice, FaSearch } from "react-icons/fa";
-import DevisContactTable from "../components/Admin/DevisContactTable";
+import DevisContactTable from "../components/admin/DevisContactTable";
 export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState("devis");
   const [searchTerm, setSearchTerm] = useState("");

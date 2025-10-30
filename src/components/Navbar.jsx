@@ -15,7 +15,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img
-                src="/images/logofall.JPG"
+                src="/src/assets/images/logofall.JPJ"
                 alt="Logo"
                 className="h-10 md:h-12 w-auto object-contain"
               />

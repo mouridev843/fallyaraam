@@ -15,7 +15,7 @@ export default function AboutPreview() {
             className="w-full lg:w-2/5 h-110 lg:h-auto bg-gradient-to-br from-[#81C784] to-[#4CAF50] relative overflow-hidden"
           >
             <img
-              src="/images/Fall.JPG"
+              src="/src/assets/images/Fall.JPG"
               alt="Fall"
               className="w-full h-full object-cover object-center"
             />
